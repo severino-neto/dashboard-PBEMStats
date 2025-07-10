@@ -335,4 +335,3 @@ def update_dashboard(ano_selecionado, dependencia_selecionada, municipios_seleci
 
 if __name__ == '__main__':
     server.run(debug=True, host='0.0.0.0', port=8050)
-
