@@ -1,0 +1,42 @@
+# Arquivos de Ambiente Virtual
+# A linha abaixo é a mais importante para o seu projeto!
+venv/
+.venv/
+env/
+.env
+
+# Arquivos de cache e bytecode do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log e bancos de dados locais
+*.log
+*.db
+*.sqlite3
+
+# Arquivos de distribuição e build do Python
+/dist/
+/build/
+*.egg-info/
+/downloads/
+/lib/
+/lib64/
+
+# Arquivos de testes
+.pytest_cache/
+.coverage
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints
