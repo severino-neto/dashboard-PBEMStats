@@ -13,9 +13,7 @@ st.set_page_config(
 # Usamos o cache para otimizar o carregamento dos dados
 @st.cache_data
 def carregar_dados():
-    # COLOQUE A URL QUE VOCÊ COPIOU DO GITHUB RAW AQUI
-    url_do_csv = 'https://raw.githubusercontent.com/severino-neto/dashboard-PBEMStats/refs/heads/main/PB_EnsinoMedio_Stats.csv'
-    df = pd.read_csv(url_do_csv)
+    df = pd.read_csv('PB_EnsinoMedio_Stats.csv')
     
     # Limpeza de nomes de colunas (exemplo)
     df.rename(columns={
